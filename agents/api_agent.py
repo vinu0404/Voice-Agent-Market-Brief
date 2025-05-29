@@ -13,7 +13,7 @@ load_dotenv()
 def api_agent(state: Dict[str, Any]) -> Dict[str, Any]:
     """
     Fetches market data for companies based on intents and portfolio holdings.
-    Uses Alpha Vantage, falls back to yfinance if it fails. Converts non-USD prices (e.g., KRW for .KS tickers) to USD.
+    Uses Alpha Vantage, falls back to yfinance if it fails. Convert non-USD prices (e.g., KRW for .KS tickers) to USD.
     Input: State with 'companies', 'time_query', 'intents', 'portfolio_data'.
     Output: Updates State with 'market_data': Dict[str, Any].
     """
