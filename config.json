@@ -1,0 +1,19 @@
+{
+  "ticker_map": {
+    "Apple": "AAPL",
+    "Samsung": "005930.KS",
+    "TSMC": "TSM",
+    "Microsoft": "MSFT",
+    "Google": "GOOGL",
+    "Amazon": "AMZN",
+    "Nvidia": "NVDA",
+    "Meta": "META",
+    "Intel": "INTC",
+    "IBM": "IBM",
+    "Sony": "6758.T",
+    "Tencent": "0700.HK",
+    "Alibaba": "BABA",
+    "Netflix": "NFLX",
+    "Tesla": "TSLA"
+  }
+}
