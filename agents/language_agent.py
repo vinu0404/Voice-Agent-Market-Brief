@@ -107,6 +107,6 @@ def language_agent(state: Dict[str, Any]) -> Dict[str, Any]:
             print(f"Language_Agent Error for {intent}: {e}")
             narratives.append(f"Error generating response for {intent}.")
 
-    narrative = " ".join(narratives) if narratives else "Sorry, I couldn’t process your query. Please try rephrasing."
+    narrative = " ".join(narratives) if narratives else "Sorry, I couldn’t process your query."
     print(f"Language_Agent Output: {narrative}")
     return {"narrative": narrative}
