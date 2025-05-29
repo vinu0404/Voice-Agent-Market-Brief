@@ -9,7 +9,7 @@ def news_agent(state: Dict[str, Any]) -> Dict[str, Any]:
     """
     Fetches news articles for companies using NewsAPI.
     Input: State with 'companies'.
-    Output: Updates State with 'news_data': Dict[str, List[Dict]].
+    Output: Update State with 'news_data': Dict[str, List[Dict]].
     """
     companies = state["companies"]
     print(f"News_Agent Input: companies={companies}")
