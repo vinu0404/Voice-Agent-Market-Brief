@@ -1,4 +1,4 @@
-# Market Brief - Voice-Enabled Finance Assistant
+# Voice-Agent-Market-Brief - Voice-Enabled Finance Assistant
 
 **Market Brief** is a voice-enabled financial assistant built with Streamlit, LangGraph, and various APIs to provide real-time market insights, portfolio analysis, and recommendations through a sleek, voice-driven interface.
 
@@ -79,20 +79,20 @@ project-root/
 │   ├── analysis_agent.py   # Performs financial analysis
 │   ├── language_agent.py   # Generates narratives
 │   └── voice_agent.py      # Handles STT/TTS
-└── .gitignore              # Ignores sensitive files
+└── .gitignore             
 ```
 
 ## Installation (Local)
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/finance-assistant.git
-   cd finance-assistant
+   git clone https://github.com/vinu0404/Voice-Agent-Market-Brief.git
+   cd Voice-Agent-Market-Brief
    ```
 
 2. **Set Up Environment**:
    ```bash
-   conda create -n market python=3.9
+   conda create -n market python==3.10
    conda activate market
    pip install -r requirements.txt
    ```
