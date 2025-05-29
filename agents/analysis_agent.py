@@ -3,8 +3,7 @@ import json
 import numpy as np
 import os
 from dotenv import load_dotenv
-load_dotenv()  # this loads variables from .env into os.environ
-
+load_dotenv()  
 
 def analysis_agent(state: Dict[str, Any]) -> Dict[str, Any]:
     """
