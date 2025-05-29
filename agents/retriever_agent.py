@@ -11,7 +11,7 @@ def retriever_agent(state: Dict[str, Any]) -> Dict[str, Any]:
     """
     Indexes news data and retrieves relevant documents based on query.
     Input: State with 'news_data', 'transcript'.
-    Output: Updates State with 'retrieved_docs': List[Dict].
+    Output: Update State with 'retrieved_docs': List[Dict].
     """
     news_data = state["news_data"]
     transcript = state["transcript"]
