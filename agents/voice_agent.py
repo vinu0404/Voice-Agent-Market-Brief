@@ -65,7 +65,7 @@ def process_stt(audio_input: str, assemblyai_api_key: str) -> Dict[str, str]:
         return {"error": error_msg}
 
 def process_tts(narrative: str, aws_access_key_id: str, aws_secret_access_key: str, region_name: str) -> Dict[str, str]:
-    """Handles TTS using AWS Polly."""
+    """Handle TTS using AWS Polly."""
     logger.info(f"Voice_Agent TTS Input: narrative_length={len(narrative)}")
     print(f"Voice_Agent TTS Input: narrative={len(narrative)}...")
 
