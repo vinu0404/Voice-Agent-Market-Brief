@@ -36,7 +36,7 @@ class State(TypedDict):
 
 def intent_classifier(state: State) -> State:
     """
-    Classifies intents using LLM with fallback keyword matching.
+    Classifie intents using LLM with fallback keyword matching.
     """
     transcript = state.get("transcript", "").lower()
     logger.info(f"Intent_Classifier Input: transcript={transcript}")
